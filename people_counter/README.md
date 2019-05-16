@@ -2,7 +2,7 @@
 
 # People Counter
 
-People Counter is a mobile app developed with Flutter :heart:
+People Counter is a mobile app developed with Flutter. :heart:
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/marciovcampos/Simple-Flutter-Projects/blob/master/LICENSE)
 
