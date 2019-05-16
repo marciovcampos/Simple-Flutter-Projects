@@ -1,16 +1,13 @@
-# people_counter
+<img align="right" src="https://github.com/marciovcampos/Simple-Flutter-Projects/blob/master/docs/flutter.png"/>
 
-People Counter
+# People Counter
 
-## Getting Started
+People Counter is a mobile app developed with Flutter :heart:
 
-This project is a starting point for a Flutter application.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/marciovcampos/Simple-Flutter-Projects/blob/master/LICENSE)
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## About:
+Simple Flutter Projects was developed by [Márcio Vinícius](https://github.com/marciovcampos) under the [MIT license](LICENSE).
