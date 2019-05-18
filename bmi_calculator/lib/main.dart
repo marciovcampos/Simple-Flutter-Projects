@@ -24,28 +24,50 @@ class _HomeState extends State<Home> {
         ],
       ),
       backgroundColor: Colors.white,
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: <Widget>[
-          Icon(Icons.person, size: 120.0, color: Colors.green),
-          TextField(
+      body: SingleChildScrollView(
+        padding: EdgeInsets.fromLTRB(10.0, 0, 10.0, 0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            Icon(Icons.person, size: 120.0, color: Colors.green),
+            TextField(
               keyboardType: TextInputType.number,
               decoration: InputDecoration(
                   labelText: "Weight (kg)",
                   labelStyle: TextStyle(color: Colors.green)),
               textAlign: TextAlign.center,
               style: TextStyle(color: Colors.green, fontSize: 25.0),
-          ), //TextField
-          TextField(
-            keyboardType: TextInputType.number,
-            decoration: InputDecoration(
-                labelText: "Height (cm)",
-                labelStyle: TextStyle(color: Colors.green)),
-            textAlign: TextAlign.center,
-            style: TextStyle(color: Colors.green, fontSize: 25.0),
-          ), //TextField
-        ], //Widget
-      ),
+            ), //TextField
+            TextField(
+              keyboardType: TextInputType.number,
+              decoration: InputDecoration(
+                  labelText: "Height (cm)",
+                  labelStyle: TextStyle(color: Colors.green)),
+              textAlign: TextAlign.center,
+              style: TextStyle(color: Colors.green, fontSize: 25.0),
+            ), //TextField
+
+            Padding(
+              padding: EdgeInsets.only(top: 10.0, bottom: 10.0),
+              child: Container(
+                height: 50.0,
+                child:  RaisedButton(
+                  onPressed: (){},
+                  child: Text("Calculate",
+                      style: TextStyle(color: Colors.white, fontSize: 25.0)),
+                  color: Colors.green,
+                ),
+              ),
+            ),
+
+            Text("Info",
+                textAlign: TextAlign.center,
+                style: TextStyle(color: Colors.green, fontSize: 25.0)
+            ),
+            
+          ], //Widget
+        ),
+      )
     );
   }
 }
