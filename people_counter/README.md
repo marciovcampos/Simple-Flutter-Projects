@@ -13,4 +13,4 @@ People Counter is a mobile app developed with Flutter. :heart:
 <img src="https://github.com/marciovcampos/Simple-Flutter-Projects/blob/master/people_counter/docs/people_counter_2.png"/>
 
 ## About:
-Simple Flutter Projects was developed by [Márcio Vinícius](https://github.com/marciovcampos) under the [MIT license](LICENSE).
+People Counter was developed by [Márcio Vinícius](https://github.com/marciovcampos) under the [MIT license](LICENSE).
