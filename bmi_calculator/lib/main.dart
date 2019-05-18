@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(MaterialApp(
     home: Home(),
   ));
 }
-
 
 class Home extends StatefulWidget {
   @override
@@ -21,13 +20,31 @@ class _HomeState extends State<Home> {
         centerTitle: true,
         backgroundColor: Colors.green,
         actions: <Widget>[
-          IconButton(
-              icon: Icon(Icons.refresh),
-                  onPressed: () {
-
-                  }                  
-          )
+          IconButton(icon: Icon(Icons.refresh), onPressed: () {})
         ],
+      ),
+      backgroundColor: Colors.white,
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: <Widget>[
+          Icon(Icons.person, size: 120.0, color: Colors.green),
+          TextField(
+              keyboardType: TextInputType.number,
+              decoration: InputDecoration(
+                  labelText: "Weight (kg)",
+                  labelStyle: TextStyle(color: Colors.green)),
+              textAlign: TextAlign.center,
+              style: TextStyle(color: Colors.green, fontSize: 25.0),
+          ), //TextField
+          TextField(
+            keyboardType: TextInputType.number,
+            decoration: InputDecoration(
+                labelText: "Height (cm)",
+                labelStyle: TextStyle(color: Colors.green)),
+            textAlign: TextAlign.center,
+            style: TextStyle(color: Colors.green, fontSize: 25.0),
+          ), //TextField
+        ], //Widget
       ),
     );
   }
