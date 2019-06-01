@@ -8,9 +8,9 @@ Currency Converter is a mobile app developed with Flutter. :heart:
 
 ## Screenshots
 
-<img src="https://github.com/marciovcampos/Simple-Flutter-Projects/blob/master/bmi_calculator/docs/currency_converter_1.png"/>
+<img src="https://github.com/marciovcampos/Simple-Flutter-Projects/blob/master/currency_converter/docs/currency_converter_1.png"/>
 
-<img src="https://github.com/marciovcampos/Simple-Flutter-Projects/blob/master/bmi_calculator/docs/currency_converter_2.png"/>
+<img src="https://github.com/marciovcampos/Simple-Flutter-Projects/blob/master/currency_converter/docs/currency_converter_2.png"/>
 
 ## About:
 Currency Converter was developed by [Márcio Vinícius](https://github.com/marciovcampos) under the [MIT license](LICENSE).
